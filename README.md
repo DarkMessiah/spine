@@ -1,7 +1,7 @@
-This module adds [Spine](http://esotericsoftware.com/) animation support for godot game engine 3.0. It has been tested with Godot 3.0.2, but may contain bugs.
+This module adds [Spine](http://esotericsoftware.com/) animation support for godot game engine 3.2. It has been tested with Godot 3.2.x, but may contain bugs.
 The 2.1 module is also avaiable in the [2.1 branch](https://github.com/GodotExplorer/spine/tree/2.1)
 
-Current Spine runtime version for master branch **3.6.52.1** ([Github link](https://github.com/EsotericSoftware/spine-runtimes/tree/spine-libgdx-3.6.52.1)).
+Current Spine runtime version for master branch **3.8.xx** ([Github link](https://github.com/EsotericSoftware/spine-runtimes/tree/3.8)).
 Current Spine runtime version for 2.1 branch **3.5.51**.
 
 ## About the license
