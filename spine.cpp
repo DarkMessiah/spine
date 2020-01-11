@@ -876,8 +876,8 @@ Dictionary Spine::get_skeleton() const {
 	dict["slotCount"] = skeleton->slotsCount;
 	dict["ikConstraintsCount"] = skeleton->ikConstraintsCount;
 	dict["time"] = skeleton->time;
-	dict["flipX"] = skeleton->flipX;
-	dict["flipY"] = skeleton->flipY;
+	//dict["flipX"] = skeleton->flipX;
+	//dict["flipY"] = skeleton->flipY;
 	dict["x"] = skeleton->x;
 	dict["y"] = skeleton->y;
 
@@ -954,8 +954,8 @@ Dictionary Spine::get_bone(const String &p_bone_name) const {
 	dict["rotationIK"] = 0; //bone->rotationIK;
 	dict["scaleX"] = bone->scaleX;
 	dict["scaleY"] = bone->scaleY;
-	dict["flipX"] = 0; //bone->flipX;
-	dict["flipY"] = 0; //bone->flipY;
+	//dict["flipX"] = 0; //bone->flipX;
+	//dict["flipY"] = 0; //bone->flipY;
 	dict["m00"] = bone->a; //m00;
 	dict["m01"] = bone->b; //m01;
 	dict["m10"] = bone->c; //m10;
